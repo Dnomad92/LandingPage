@@ -1,9 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+import Hero from '../components/hero';
 
 const pageStyles = {
   color: "#232129",
-  padding: "96px",
+  //padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -26,6 +27,7 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
+      <Hero />
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
         Sorry 😔, we couldn’t find what you were looking for.
